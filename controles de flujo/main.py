@@ -1,69 +1,94 @@
-##COMVERCIONES STRING NUMEROS
-numero="10"
-numeroCombertido=int(numero)
-print(type(numero))
-print(type(numero))
+# ##COMVERCIONES STRING NUMEROS
+# numero="10"
+# numeroCombertido=int(numero)
+# print(type(numero))
+# print(type(numero))
 
-flotanteString="10"
-floteanteNumero=float(flotanteString)
+# flotanteString="10"
+# floteanteNumero=float(flotanteString)
 
-print(flotanteString)
-print(flotanteString)
+# print(flotanteString)
+# print(flotanteString)
 
-numeroEntero=20
-numeroSteing=str(numeroEntero)
+# numeroEntero=20
+# numeroSteing=str(numeroEntero)
 
-print(type(numeroEntero))
-print(type(numeroSteing))
+# print(type(numeroEntero))
+# print(type(numeroSteing))
 
-##controles de flujo
-##los programas se manejan de manera secuencial
-nombre="yadira"
-mensaje="hola feli"
-print(mensaje)
-print(nombre)
-##control de flujo nos permite cortar 
-#condicionales 
-#que se realiza algo si se cumple cierta condicion 
-###bloque
-###cuando nosotros utilicemoscualquier control de flujo o funciones el codigo que se debe ejecutar despues debera estar 
-###definida por bloques o identaciones 
-##1.introduccion 
-##1.1 otro consepto
-##1.2 otro consepto
-##1.2.1 este es de arriba 
-##condicion 1
-##si se cumple la condicion ejecuta esto
-##condicion 2
-##si se cumple la condicion 2 se ejecuta esto si es verdad :
-print("es verdad")
-suma=10+20
-multiplicacion=5*20
-print("otra cosa")
-if True
-print("estoy fuera del false")
+# ##controles de flujo
+# ##los programas se manejan de manera secuencial
+# nombre="yadira"
+# mensaje="hola feli"
+# print(mensaje)
+# print(nombre)
+# ##control de flujo nos permite cortar 
+# #condicionales 
+# #que se realiza algo si se cumple cierta condicion 
+# ###bloque
+# ###cuando nosotros utilicemoscualquier control de flujo o funciones el codigo que se debe ejecutar despues debera estar 
+# ###definida por bloques o identaciones 
+# ##1.introduccion 
+# ##1.1 otro consepto
+# ##1.2 otro consepto
+# ##1.2.1 este es de arriba 
+# ##condicion 1
+# ##si se cumple la condicion ejecuta esto
+# ##condicion 2
+# ##si se cumple la condicion 2 se ejecuta esto si es verdad :
+# print("es verdad")
+# suma=10+20
+# multiplicacion=5*20
+# print("otra cosa")
+# if True:
+# print("estoy fuera del false")
 
 
-##match apellido:
-##case apellido if apellido[2]=="e":
-##print(f"bienvenida")
-##case _:
-##print ("tu no heres de esta raza,eres")
-##BUCLES
-condicion=2
-while condicion<21 :
-    print(condicion)
-    condicion=condicion+2
+# ##match apellido:
+# ##case apellido if apellido[2]=="e":
+# ##print(f"bienvenida")
+# ##case _:
+# ##print ("tu no heres de esta raza,eres")
+# ##BUCLES
+# condicion=2
+# while condicion<21 :
+#     print(condicion)
+#     condicion=condicion+2
 
-edad=0
-while edad !=20:
-    edad=int(input("ingrese edad"))
+# edad=0
+# while edad !=20:
+#     edad=int(input("ingrese edad"))
 
-nombre=" "
-while nombre !="si ":
-    nombre=input("como te llamas: ")
+# nombre=" "
+# while nombre !="si ":
+#     nombre=input("como te llamas: ")
 
-while True:
-    nombre=input("como te llamas: ")
-    if nombre == "si":
+# while True:
+#     nombre=input("como te llamas: ")
+#     if nombre == "si":
+#         break
+# for numero in range(0,10):
+#     print(numero)
+
+# vocales=["a","e","i","o""u"]
+# print(vocales[0])
+# print(vocales[1])
+# print(vocales[2])
+
+# vocales=("a","e","i","o","u")
+# for numero in range(0,5):
+#     print(vocales[numero])
+# for vocal in vocales:
+#     print(vocal)
+
+##crear un lista de 5 colores cada color que iteres tendra que mostrar 
+##por consola, solo cuando encuentre el color rojo mostrara el mensaje 
+##de color encontrado y se terminara la ejecucion 
+
+colores=["azul","amarillo","rojo","negro","blanco"]
+
+for color in colores:
+    if color == "rojo":
+        print ("encontado")
         break
+    print (color)

@@ -41,4 +41,4 @@ while True:
     
     play_again = input("quieres jugar de nuevo(s/n): ")
     if play_again.lower() != "s":
-        break
+        break 
