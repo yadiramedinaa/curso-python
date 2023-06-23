@@ -85,10 +85,41 @@
 ##por consola, solo cuando encuentre el color rojo mostrara el mensaje 
 ##de color encontrado y se terminara la ejecucion 
 
-colores=["azul","amarillo","rojo","negro","blanco"]
+# colores=["azul","amarillo","rojo","negro","blanco"]
 
-for color in colores:
-    if color == "rojo":
-        print ("encontado")
-        break
-    print (color)
+# for color in colores:
+#     if color == "rojo":
+#         print ("encontado")
+#         break
+#     print (color)
+
+# lista=[]
+# print(lista)
+# primerDato=input("ingresa una fruta: ")
+# lista.append(primerDato)
+# print(lista)
+# segundoDato=input("ingresa una segunda fruta: ")
+# lista.append(segundoDato)
+# print(lista)
+
+##crear un programa que me deje ingresar datos en una lista vacia
+##en caso el usuario ingrese la palabra "si" el programa dejara
+##de pedir datos y me  mostrara la lista con todos los datos ingresados 
+
+lista=[]
+numeros=input("ingresa un numero: ")
+while numeros!="si":
+    lista.append(numeros)
+    numeros=input("ingresa un numero: ")
+print(lista)
+
+lista =[]
+condicion=1
+while condicion:
+    pedirDato=input("ingrese un dato: ")
+    if pedirDato == "si":
+        condicion=0
+    lista.append(pedirDato)
+print(lista)
+
+
