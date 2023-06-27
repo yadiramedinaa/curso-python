@@ -123,8 +123,54 @@
 # print(lista)
 
 
-lista=[]
-for dato in range(5):
-    dato=input("ingrese un dato: ")
-    lista.append(dato)
-print(lista)
+# lista=[]
+# for dato in range(5):
+#     dato=input("ingrese un dato: ")
+#     lista.append(dato)
+# print(lista)
+
+
+# lista=[]
+
+# while len(lista) < 5:
+#     ingresaDato=input("ingresa un dato: ")
+#     lista.appent(ingresaDato)
+
+# print(f"""
+#     ==================================
+#     los datos ingresados son {lista})
+#     ==================================
+#     """)
+
+
+
+##pedir al usuario un numero luego generar la tabla de multiplicar de dicho numero del 1 hasta el 12
+#entrada=5
+#1*5=5
+#2*5=10
+#3*5=15
+
+#3*12=36
+
+# tablaDe=int(input("ingresa un numero: "))
+# for numero in range(1,13):
+#     resultado=numero*tablaDe
+#     print(f"{numero} * {tablaDe} = {resultado}")
+
+#2 = 2*1 = 2
+#3 = 3*2*1 = 6
+#4 = 4*3*2*1 = 24
+#5 = 5*4*3*2*1 = 120
+
+## un programa que me pida un numero y me calcule su factorial
+#ejemplo si ingreso 5
+## de salida me debera imprimir 120
+
+numero=int(input("ingrese el numero: "))
+factorial=1
+for num in range(1,numero+1):
+    factorial=factorial*num
+    print(factorial)
+print(factorial)
+
+##mostrar la sucecion fobocci de los 10 primeros numeros
