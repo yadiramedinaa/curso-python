@@ -106,20 +106,25 @@
 ##en caso el usuario ingrese la palabra "si" el programa dejara
 ##de pedir datos y me  mostrara la lista con todos los datos ingresados 
 
+# lista=[]
+# numeros=input("ingresa un numero: ")
+# while numeros!="si":
+#     lista.append(numeros)
+#     numeros=input("ingresa un numero: ")
+# print(lista)
+
+# lista =[]
+# condicion=1
+# while condicion:
+#     pedirDato=input("ingrese un dato: ")
+#     if pedirDato == "si":
+#         condicion=0
+#     lista.append(pedirDato)
+# print(lista)
+
+
 lista=[]
-numeros=input("ingresa un numero: ")
-while numeros!="si":
-    lista.append(numeros)
-    numeros=input("ingresa un numero: ")
+for dato in range(5):
+    dato=input("ingrese un dato: ")
+    lista.append(dato)
 print(lista)
-
-lista =[]
-condicion=1
-while condicion:
-    pedirDato=input("ingrese un dato: ")
-    if pedirDato == "si":
-        condicion=0
-    lista.append(pedirDato)
-print(lista)
-
-
