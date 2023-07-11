@@ -166,11 +166,42 @@
 #ejemplo si ingreso 5
 ## de salida me debera imprimir 120
 
-numero=int(input("ingrese el numero: "))
-factorial=1
-for num in range(1,numero+1):
-    factorial=factorial*num
-    print(factorial)
-print(factorial)
+#numero=int(input("ingrese el numero: "))
+#factorial=1
+#for num in range(1,numero+1):
+#    factorial=factorial*num
+#    print(factorial)
+#print(factorial)
 
 ##mostrar la sucecion fobocci de los 10 primeros numeros
+
+
+##pedir a un usuario una lista de 5 elemtos si en la listacontiene la palabra disco 
+##mostrar la palabra y la ubicacion de su indice positivo
+
+#lista=[1,2,4"disco",6]
+
+#disco
+#se encuentra en el indice numero 3 
+
+
+#lista=[]
+#while len(lista)<5:
+#print(lista)
+#dato=input("ingresa un dato:")
+#lista.appent(dato)
+#print(lista)
+
+lista=[]
+indice=0
+palabra=""
+while len(lista)<5:
+    dato=input("ingresa un dato:")
+    lista.append(dato)
+for texto in range(0,len(lista)):
+    if lista[texto] == "disco":
+        palabra=lista[texto]
+        indice=texto
+print(f"""el texto disco se encuentra en el indice hola {indice}
+      y el texto es {palabra}
+      """)
